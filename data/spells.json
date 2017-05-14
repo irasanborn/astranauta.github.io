@@ -949,7 +949,8 @@ var spelldata = {
                 "duration": "Instantaneous",
                 "classes": "Sorcerer, Wizard, Fighter (Eldritch Knight)",
                 "text": [
-                    "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose. At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+                    "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target.",
+                    "If the attack hits, the creature takes 3d8 damage of the type you chose.",
                     "",
                     "At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
                 ],
@@ -1750,7 +1751,7 @@ var spelldata = {
                 "school": "EV",
                 "time": "1 action",
                 "range": "120 feet",
-                "components": "V, S, M",
+                "components": "V, S, M (a bit of phosphorus or wychwood, or a glowworm)",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Bard, Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
                 "text": [
@@ -2604,7 +2605,7 @@ var spelldata = {
                 "components": "V, M (a white feather or the heart of a hen)",
                 "duration": "1 minute",
                 "classes": "Bard, Sorcerer, Wizard, Warlock (Seeker)",
-                "text": "Reaction - When you or a creature within 60 feet of you falls Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature."
+                "text": "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature."
             },
             {
                 "name": "Feeblemind",
@@ -3014,7 +3015,7 @@ var spelldata = {
                 "school": "EN",
                 "time": "1 action",
                 "range": "Self",
-                "components": "S, M",
+                "components": "S, M (a small amount of makeup applied to the face as this spell is cast)",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Bard, Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
                 "text": "For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it."
@@ -5310,7 +5311,7 @@ var spelldata = {
                 ]
             },
             {
-                "name": "Prismatic Spray ()",
+                "name": "Prismatic Spray",
                 "level": "7",
                 "school": "EV",
                 "time": "1 action",
@@ -5406,7 +5407,7 @@ var spelldata = {
                 "school": "I",
                 "time": "1 action",
                 "range": "120 feet",
-                "components": "V, S, M",
+                "components": "V, S, M (a bit of fleece and jade dust worth at least 25 gp)",
                 "duration": "Until dispelled",
                 "classes": "Bard, Wizard, Rogue (Arcane Trickster)",
                 "text": [
@@ -5669,7 +5670,7 @@ var spelldata = {
                 "school": "A",
                 "time": "1 action",
                 "range": "Touch",
-                "components": "V, S, M",
+                "components": "V, S, M (a miniature cloak)",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Cleric, Druid",
                 "text": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends.",
@@ -6007,7 +6008,7 @@ var spelldata = {
                 "school": "T",
                 "time": "1 bonus action",
                 "range": "Touch",
-                "components": "V, S, M",
+                "components": "V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)",
                 "duration": "1 minute",
                 "classes": "Druid",
                 "text": "The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
@@ -6694,7 +6695,7 @@ var spelldata = {
                 "school": "T",
                 "time": "1 action",
                 "range": "30 feet",
-                "components": "V, S, M",
+                "components": "V, S, M (the stem of a plant with thorns)",
                 "duration": "Instantaneous",
                 "classes": "Druid",
                 "text": [
@@ -7362,7 +7363,7 @@ var spelldata = {
                 "school": "C",
                 "time": "1 action",
                 "range": "Self",
-                "components": "V, S, M",
+                "components": "V",
                 "duration": "Instantaneous",
                 "classes": "Sorcerer, Wizard",
                 "text": [
@@ -7412,7 +7413,7 @@ var spelldata = {
                 "school": "C",
                 "time": "1 action",
                 "range": "5 feet",
-                "components": "V, S, M",
+                "components": "V",
                 "duration": "Instantaneous",
                 "classes": "Cleric",
                 "text": [
@@ -7427,7 +7428,7 @@ var spelldata = {
                 "school": "EV",
                 "time": "1 bonus action",
                 "range": "Self",
-                "components": "V, S, M",
+                "components": "V",
                 "duration": "Concentration, up to 1 minute",
                 "classes": "Paladin, Warlock (Hexblade), Sorcerer (Stone)",
                 "text": "The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell."
@@ -7438,7 +7439,7 @@ var spelldata = {
                 "school": "EN",
                 "time": "1 action",
                 "range": "60 feet",
-                "components": "V, S, M",
+                "components": "V, S",
                 "duration": "10 minutes",
                 "classes": "Bard, Cleric, Paladin, Paladin (Devotion), Paladin (Crown)",
                 "text": [
@@ -8287,7 +8288,7 @@ var spelldata = {
                       "Climbing (2 psi). You grow tiny hooked claws that give you gain a climbing speed equal to your walking speed",
                       "Flight (5 psi). Wings sprout from your back. You gain a flying speed equal to your walking speed.",
                       "Keen Senses (2 psi). Your eyes and ears become more sensitive. You gain advantage on Wisdom (Perception) checks.",
-                      "Keen Senses (2 psi). Your eyes and ears become more sensitive. You gain advantage on Wisdom (Perception) checks.",
+                      "Perfect Senses (3 psi). You gain a keen sense of smell and an instinct to detect prey. You can see invisible creatures and objects within 10 feet of you, even if you are blinded.",
                       "Swimming (2 psi). You gain fins and webbing between your fingers and toes; you gain a swimming speed equal to your walking speed.",
                       "Tough Hide (2 psi). Your skin becomes as tough as leather; you gain a +2 bonus to AC."
               ]
@@ -8503,13 +8504,13 @@ var spelldata = {
                 "classes": "Cleric, Paladin",
                 "text": [
                     "You perform one of several religious ceremonies. When you cast the spell, choose one of the following ceremonies, the target of which must be within 10 feet of you throughout the casting.",
-                    "Atonement. You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a success, you restore the target to its original alignment.",
-                    "Bless Water. You touch one vial of water and cause it to become holy water.",
-                    "Coming of Age. You touch one humanoid old enough to be a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this ceremony just once.",
-                    "Dedication. You touch one humanoid who would willingly convert to your religion or who wishes to be dedicated to your god’s service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this ceremony just once.",
-                    "Funeral Rite. You bless one corpse within 5 feet of you. For the next 24 hours, the target can’t become undead by any means short of a wish spell.",
-                    "Investiture. You touch one willing humanoid. Choose one 1st-level spell you have prepared and expend a spell slot and any material components as if you were casting that spell. The spell has no effect. Instead, the target can cast this spell once without having to expend a spell slot or use material components. If the target doesn’t cast the spell within 1 hour, the invested spell is lost.",
-                    "Marriage. You touch adult humanoids willing to be bonded together in marriage. For the next 24 hours, each target gains a +2 bonus to AC and saving throws while they are within 30 feet of each other. A creature can benefit from this ceremony just once."
+                    "Atonement: You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a success, you restore the target to its original alignment.",
+                    "Bless Water: You touch one vial of water and cause it to become holy water.",
+                    "Coming of Age: You touch one humanoid old enough to be a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this ceremony just once.",
+                    "Dedication: You touch one humanoid who would willingly convert to your religion or who wishes to be dedicated to your god’s service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this ceremony just once.",
+                    "Funeral Rite: You bless one corpse within 5 feet of you. For the next 24 hours, the target can’t become undead by any means short of a wish spell.",
+                    "Investiture: You touch one willing humanoid. Choose one 1st-level spell you have prepared and expend a spell slot and any material components as if you were casting that spell. The spell has no effect. Instead, the target can cast this spell once without having to expend a spell slot or use material components. If the target doesn’t cast the spell within 1 hour, the invested spell is lost.",
+                    "Marriage: You touch adult humanoids willing to be bonded together in marriage. For the next 24 hours, each target gains a +2 bonus to AC and saving throws while they are within 30 feet of each other. A creature can benefit from this ceremony just once."
                 ]
             },
             {
@@ -8581,7 +8582,8 @@ var spelldata = {
                 "text": [
                   "You create a healing elixir in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it’s consumed, at which point the vial vanishes.",
                   "As an action, a creature can drink the elixir or administer it to another creature. The drinker regains 2d4 + 2 hit points."
-                ]
+                ],
+                "roll": "2d4+2"
             },
             {
                 "name": "Infestation",
@@ -8596,7 +8598,8 @@ var spelldata = {
                 "text": [
                   "You cause mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw or take 1d6 piercing damage. If the target takes any of that damage, the target moves 5 feet in a random direction. Roll a d8 for the direction: 1, north; 2, northeast; 3, east; 4, southeast; 5, south; 6, southwest; 7, west; or 8, northwest.",
                   "The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
-                ]
+                ],
+                "roll": "1d8"
             },
             {
                 "name": "Primal Savagery",
@@ -8611,7 +8614,8 @@ var spelldata = {
                 "text": [
                   "Your teeth or fingernails lengthen and sharpen. You choose which. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 piercing or slashing damage (your choice). After you make the attack, your teeth or fingernails return to normal.",
                   "The spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
-                ]
+                ],
+                "roll": "1d10"
             },
             {
                 "name": "Puppet",
@@ -8695,7 +8699,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (30-foot radius)",
                 "components": "V",
-                "duration": "Instantaneous",
+                "duration": "Concentration, up to 10 minutes",
                 "classes": "Bard",
                 "text": [
                   "Music of a style you choose fills the air around you in a 30-foot radius. The music spreads around corners and can be heard from up to 100 feet away. The music moves with you, centered on you for the duration.",
